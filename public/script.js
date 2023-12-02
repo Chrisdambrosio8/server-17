@@ -82,7 +82,7 @@ const displayDetails = (artist) =>
 };
 
 const deleteArtist = async (artist) => {
-    let response = await fetch(`https://derver-17.onrender.com/api/artists/${artist.id}`, {
+    let response = await fetch(`https://server-17.onrender.com/api/artists/${artist.id}`, {
         method: "DELETE",
         headers: {
             "Content-Type": "application/json;charset=utf-8",
